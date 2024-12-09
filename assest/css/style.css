@@ -1,0 +1,443 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: poppins ;
+    src: url(Poppins-Light.ttf);
+}
+*{
+    font-family: poppins;
+    padding: 0 ;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.logo h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #5fcf80;
+    margin: 0;
+}
+
+.nav-item a{
+    font-size: 16px;
+    color: black;
+}
+.nav-item a:hover{
+    color: #5fcf80;
+}
+.start {
+    background-color: #5fcf80 !important;
+}
+.header{
+    background-image:url(../img/hero-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0,0, .5);
+
+}
+.header .btn{
+    background-color: transparent;
+    border:1px solid ;
+}
+.header .btn:hover{
+    background-color: #5fcf80;
+    border: 1px solid transparent;
+}
+.header h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 700;
+}
+.header p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+}
+.about li{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+}
+.about li i{
+    color: #5fcf80;
+}
+.about h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn{
+    background-color: #5fcf80;
+    border: transparent;
+}
+.btn:hover{
+    background-color: #69ee91;
+}
+.count span{
+    font-size: 48px;
+    color: #5fcf80;
+    font-weight: 900;
+
+}
+.count p{
+    color: rgba(124, 115, 115, 0.733);
+    font-size: 15px;
+    font-weight: 700;
+}
+.why{
+    background-color: #5fcf80;
+}
+.why .btn a{
+    font-weight: 900;
+    font-size: 30px;
+}
+.why .btn{
+    background-color: #69ee91;
+}
+.why .btn:hover{
+    background-color: white;
+    color: #5fcf70!important;
+}
+.why h3{
+    font-weight:700;
+    font-size: 34px;
+}
+.icon{
+    width: 100%;
+    height: 100%;
+    
+}
+.icon i{
+    color: #5fcf80 ;
+    font-size: 32px; 
+    height: 75px;
+    width: 75px;
+    margin-bottom: 30px;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.icon a{
+    text-decoration: none;
+}
+.icon:hover i{
+    background-color: #5fcf70;
+    color: white;
+    border-radius: 50%;
+}
+.icon h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.icon p{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.feature-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+    gap: 10px;
+    border: 1px solid transparent;
+}
+.feature-item:hover{
+    color: #5fcf80;
+    border: 1px solid #5fcf80;
+}
+.feature-item i{
+    font-size: 32px;
+}
+.feature-content h3{
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-size: 16px;
+}
+
+.titleCourse span::after{
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #5fcf80;
+    display: inline-block;
+    margin: 4px 10px;
+    
+}
+.titleCourse h4{
+    font-size: 36px;
+    font-weight: 800;
+}
+.trainer-profile{
+    width: 50px;
+    border-radius: 50%;
+}
+.category{
+    color: white;
+    background-color: #5fcf80;
+    padding: 6px 14px;
+    font-size: 16px;
+    
+}
+.courses a{
+    color: black;
+    text-decoration: none;
+
+}
+.course-item h4 a{
+    font-size: 25px;
+    font-weight: 700;
+}
+.course-item h4 a:hover{
+    color: #5fcf80;
+}
+.icons a:hover{
+    color: #5fcf80;
+}
+.footer .sitename {
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 900;
+}
+.footer .links a{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex ;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #444444; 
+        font-size: 16px;
+        color: #444444;
+        margin-right: 10px;
+        text-decoration: none;
+}
+.footer .links a:hover{
+    color: #5fcf80;
+    border: 1px solid #5fcf80;
+}
+.footer ul  {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li {
+    padding-top:10px ;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #444444;
+}
+.footer ul li a:hover{
+    color: #5fcf80;
+}
+.news-letter{
+    position: relative;
+}
+.email{
+    width: 100%;
+    border: 1px solid #5fcf80;
+    border-radius: 75px;
+    padding: 8px 8px;
+}
+input[type=submit]{
+    position: absolute;
+    right: 1px;
+    padding: 10px 15px;
+    border-radius: 75px;
+    border: 0;
+    background-color: #5fcf80;
+    color: white;
+}
+.carousel-indicators button{
+    height: 10px !important;
+    width: 10px !important;
+    background-color: #5fcf80 !important;
+    border:1px solid #5fcf80 !important;
+    border-radius: 50%;
+}
+.testimonal h2{
+    font-size: 14px;
+    color: #444444;
+
+}
+.testimonal h2::after{
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 200px;
+    background-color: #5fcf80;
+    margin: 4px 10px;
+}
+.testimonal .title{
+    font-size: 36px;
+    font-weight: 700;
+}
+.trainer img{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 50%;
+    
+}
+
+.trainer .layer{
+    position: absolute;
+    -webkit-transform:translateY(100%);
+        -ms-transform:translateY(100%);
+            transform:translateY(100%);
+    height: 100%;
+    width: 75%;
+    border-radius: 50%;
+    background-color: rgba(0, 0,0, .5);
+    
+}
+.trainer .trainer-layer:hover .layer{
+    -webkit-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+            transform: translateY(0%);
+}
+.trainer .layer a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+.pricing-item{
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.pricing .pricing-item h5{
+    font-size: 36px;
+    font-weight: 600;
+}
+.pricing .pricing-item h5 span{
+    font-size: 16px;
+    font-weight: 300;
+    color: #6d6a6a;
+}
+.pricing .pricing-item ul{
+    list-style: none;
+    margin: 0;
+    padding : 0;
+    
+}
+.pricing .pricing-item ul li{
+    padding: 10px 0 ;
+    font-size: 14px;
+}
+.nu{
+    text-decoration: line-through;
+    color: #6d6a6a;
+}
+.pricing .header-box{
+    background-color: #5fcf80;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+} 
+.pricing .pricing-item .advanced{
+    
+    background-color: #5fcf80;
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 20px;
+    right: -68px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    z-index: 1;
+    font-size: 14px;
+    
+}
+.contact .contact-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #5fcf80;
+    border-radius: 50%;
+    color: white;
+    font-size: 26px;
+    
+}
+.contact input{
+    border: #5fcf80 !important;
+}
+
+.card-body{
+    background-color: white;
+    border-top: 4px solid var(--surface-color);
+    padding: 30px;
+    -webkit-box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    width: 75%; 
+    margin-top: -60px;
+    z-index: 1;
+    
+}
+.title-card a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+
+}
+.card-img{
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+    
+}
+.card:hover img{
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+
+    color: #5fcf80;
+}
+.card:hover a{
+    color: #5fcf80;
+}
+.card:hover .card-body {
+    border-top: 2px solid #5fcf80 ;
+}
